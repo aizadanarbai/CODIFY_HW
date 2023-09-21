@@ -1,0 +1,43 @@
+body {
+margin: 0;
+min-height: 100vh;
+background-color: pink;
+display: flex;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+ul{
+    display: block;
+}
+.container {
+    
+    width: 50%;
+    height: 60vh;
+    background-color: #fff;
+    margin: 15vh auto;
+    box-shadow: 1px 1px 20px rgb(73, 65, 65);
+    border-radius: 0.5rem;
+}
+.container_to_do_list {
+    
+    margin-top: 40px;
+}
+.to_do_list_row {
+    margin-bottom: 15px;
+}
+ button {
+    background-color: azure;
+    
+    
+    
+ }
+ input {
+    margin: 8%;
+    background-color: antiquewhite;
+ }
