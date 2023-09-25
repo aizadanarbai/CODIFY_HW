@@ -1,0 +1,30 @@
+body {
+    margin: 80px;
+
+}
+p {
+    margin-top: 0;
+    margin: 20px;
+}
+.container {
+ border: 2px solid rgb(3, 109, 74);  
+}
+.box {
+    width: 150px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 75px;
+    position: absolute;
+    top: 40px; left: 40px;
+}
+@media screen and (max-width:1200) {
+    .box {
+        position: relative;
+    }
+    
+}
+@media screen and (max-width: 883px){
+  .box {
+    position: fixed;    
+  }    
+}
