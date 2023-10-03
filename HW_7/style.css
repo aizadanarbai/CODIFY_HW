@@ -1,0 +1,51 @@
+.element {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(90, 214, 173);
+    border-radius: 50%;
+    border: solid rgb(57, 137, 110);
+    animation: 7s  "lily" infinite alternate , color 2s;
+} 
+
+.css {
+    width:140px;
+    height: 80px;
+    background-color: #2196F3;
+    transition: background-color 1s linear;
+    margin: 50%;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .css:hover {
+    background-color: #3F51B5;
+  }
+
+
+
+
+
+
+
+@keyframes lily{
+    0% {
+     
+      left: 0;
+    }
+    50% {
+      bottom: 50%;
+      background-color: blue;
+      border-radius: 0;
+
+
+    }
+    100% {
+     background-color: peru;
+      left: 500px;
+        width: 200px;
+    }
+  }
+
+
+
