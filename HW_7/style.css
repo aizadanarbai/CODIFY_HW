@@ -6,22 +6,38 @@
     border-radius: 50%;
     border: solid rgb(57, 137, 110);
     animation: 7s  "lily" infinite alternate , color 2s;
+    
 } 
+
 
 .css {
     width:140px;
     height: 80px;
-    background-color: #2196F3;
-    transition: background-color 1s linear;
-    margin: 50%;
+    background-color: #c4008c;
+    transition:  linear;
+    margin-top: 50%;
     text-align: center;
     font-size: 40px;
+    border: red;
+    animation: "point" 7s infinite alternate ;
   }
   
   .css:hover {
-    background-color: #3F51B5;
-  }
+    border-radius: 50% ;
+    background-color: #b5b53f;
+    }
 
+
+
+    @keyframes point{
+    0%{
+        left: 80px;
+        
+     }
+     100% {
+         left:200px;
+     }
+}
 
 
 
@@ -46,6 +62,11 @@
         width: 200px;
     }
   }
+ 
+  .lement :hover{
+    background-color: #c4008c;
+    
 
+  }
 
 
