@@ -23,4 +23,12 @@ const obj = {
 console.log(obj)
 
 
+const word = 'Hello'
+console.log('Hello')
+
+const word2 = "World"
+console.log('World')
+
+const joined = word + word2
+console.log(joined)
 
