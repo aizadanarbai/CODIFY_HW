@@ -1,13 +1,13 @@
-console.log ("Name")
+
 
 const Name = "Aizada"
-console.log ("Aizada");
+console.log (Name);
 
 let Age = 23
 console.log (23)
 
 let City = "Batken" 
-console.log("Batken")
+console.log(City)
     
 
 const num = 14
