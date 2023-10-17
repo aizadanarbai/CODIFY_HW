@@ -1,13 +1,17 @@
-const age = 'Несовершеннолетний'
+const age =  "Не совершеннолетний"
 console.log(age)
 
 const isStudent = true
-const Student = 23
-console.log(Student == isStudent)
+
+if (isStudent === true) {
+    console.log ('Студент')
+} else {
+    console.log('Не студент')
+}
 
 const num1 = 12
 const num2 = 50
-console.log(12 + 50)
+console.log(num1 + num2)
 
 const day = 1
 
@@ -72,11 +76,20 @@ const e = 20
 console.log(c > d)
 console.log(d < e)
 
-const f = "fruit"
-const fruit = "Яблоко"
-const banan = "Желтый"
-const orange = "Оранжевый"
-console.log ("Яблоко")
+const fruit = "яблоко"
+if (fruit === "яблоко"){
+   console.log("красный")
+}else if (fruit === "банан"){
+    console.log("желтый")
+}else if (fruit === "апельсин"){
+    console.log("оранжевый")
+}
+else{
+    console.log("Другой цвет")
+}
+const incom = 2345 ? "Высокий доход": "Среный доход";
+console.log (incom) 
+
 
 const grade = "Семь"
 
@@ -89,6 +102,8 @@ switch ("Семь"){
 
     }
 }
+
+
 
 const x = 88
 const y = 99
@@ -103,7 +118,6 @@ if (isRaining == true ) {
     console.log("Дождя нет")
 }
 
-
 const isLeapYear = true
 if (isLeapYear == true ) {
     console.log ("Год високосный")
@@ -111,6 +125,15 @@ if (isLeapYear == true ) {
     console.log("Год не високосный")
 }
 
+
+const num3 = 50
+if (num3 === 50) {
+    console.log("Положительный")
+} else if (num3 > 50) {
+    console.log("Отрицательный")
+}else{
+    console.log("Ноль")
+}
 
 
 
