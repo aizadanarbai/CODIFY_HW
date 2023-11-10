@@ -40,15 +40,22 @@ function daysWeek () {
 daysWeek()
 
 const product = {
-    vegetable: ['potato',
-     'tomato', 
-     'garlik'],
-    price: [40,50,60],
+    vegetable: 'potato',
+    price:40,
     getInformation: function productToString(){
      console.log(`${this.vegetable}, ${this.price} `)
     }
 }
     product.getInformation()
+
+    const animal = {
+      name: 'Dog',
+      sound: 'Auf',
+      getSound: function getSoundString(){
+        console.log(`Dog ${this.sound}`)
+      }
+    }
+    animal.getSound() 
 
 
      
